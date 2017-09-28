@@ -1,0 +1,22 @@
+{
+   "host":"localhost",
+   "port":"3001",
+   "secret": "THIS IS MY SECRET",
+   "chaincodeId":"mycc",
+   "channelName":"mychannel",
+   "chaincodeVersion": "v1",
+   "GOPATH":"../artifacts",
+   "chaincodePath":"github.com/example_cc",
+   "keyValueStore":"/tmp/fabric-client-kvs",
+   "orgsList": ["org1","org2"],
+   "eventWaitTime":"30000",
+   "invokeQueryFcnName":"invoke",
+   "channelConfigPath": "./artifacts/channel-artifacts/channel.tx",
+   "orderer":"grpcs://localhost:7050",
+   "users":[
+      {
+         "username":"admin",
+         "secret":"adminpw"
+      }
+   ]
+}
